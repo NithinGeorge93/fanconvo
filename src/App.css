@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+  background-color: #121212;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.white {
+  color: #fff;
+}
+
+.search-box {
+  border: 2px solid #10ff8d;
+  border-radius: 20px;
+}
+
+.search-box input,
+.search-box .input-group-text {
+  background-color: transparent;
+  border: 0;
+}
+
+.search-box .input-group-append .input-group-text {
+  width: 100%;
+  display: block;
+  text-align: right;
+}
+
+.search-box input {
+    width: 80%;
+}
+
+.search-box .input-group-append {
+  width: 20%;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.form-box {
+  min-height: 400px;
+  background-color: #242424;
+}
+
+.form-box {
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 5%;
+}
+
+.nav-tabs {
+  border-radius: 30px;
+  width: 350px;
+  background-color: #0009;
+  padding: 6px;
+  margin: 0 auto;
+  border: 0;
+}
+
+.nav.nav-tabs li {
+  width: 50%;
+  text-align: center;
+}
+
+.nav-link.active {
+  border-radius: 30px;
+  background-color: #10ff8d !important;
+  color: #121212;
+}
+.nav-link,
+.nav-link:hover,
+.nav-link:focus {
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+label {
+  color: #fff;
+}
+
+.form-group {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 576px) {
+  .form-group {
+    width: 100%;
+  }
+
+  .logo {
+    width: 190px;
+  }
+
+  .nav-tabs {
+    width: 100%;
+  }
+
+  .nav-link {
+    font-size: 14px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.form-group .form-control {
+  border: 2px solid #10ff8d;
+  border-radius: 20px;
+  background-color: transparent;
+  height: 45px;
+ }
 
-.App-link {
-  color: #61dafb;
+.btn-success {
+  border-radius: 20px;
+  padding: 10px;
+  width: 150px;
+  background-color: #10ff8d;
+  font-weight: 500;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-link,
+.form-check-label span a {
+  color: #10ff8d;
 }
