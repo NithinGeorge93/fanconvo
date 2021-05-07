@@ -122,21 +122,21 @@ function App() {
       </div>
       <div className="col-12 mb-4">
         <div className="row">
-          <div className="col-4">
+          <div className="col-sm-4 col-xs-12 mb-3">
             <img src={logo} className="logo" alt="logo" width="200px" height="30px" />
           </div>
-          <div className="col-8">
+          <div className="col-sm-8 col-xs-12 white">
             <div className="row">
-              <div className="col-4">
+              <div className="col-sm-4 col-xs-6">
                 <p>How Fanconvo Works?</p>
               </div>
-              <div className="col-4">
+              <div className="col-sm-4 col-xs-6">
                 <p>Terms of Use</p>
               </div>
-              <div className="col-4">
+              <div className="col-sm-4 col-xs-6">
                 <p>Contact Us</p>
               </div>
-              <div className="col-12">
+              <div className="col-sm-12 col-xs-6">
                 <p>@2021 Fanconvo</p>
               </div>
             </div>
