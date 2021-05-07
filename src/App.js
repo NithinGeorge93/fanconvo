@@ -25,7 +25,7 @@ function App() {
             <div className="col-xs-6 col-xs-12">
               <div className="pl-2 pr-2">
                 <div className="input-group search-box mb-3">
-                  <input type="text" clclassNameass="form-control" placeholder=""></input>
+                  <input type="text" clclassName="form-control" placeholder=""></input>
                   <div className="input-group-append">
                     <span className="input-group-text">&#128269;</span>
                   </div>

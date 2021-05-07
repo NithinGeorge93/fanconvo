@@ -21,6 +21,11 @@ body {
   border: 0;
 }
 
+.search-box input:focus-visible {
+  outline: none;
+  border: none;
+}
+
 .search-box .input-group-append .input-group-text {
   width: 100%;
   display: block;
@@ -50,11 +55,12 @@ body {
   margin-top: 5%;
 }
 
+.nav-tabs:hover,
 .nav-tabs {
   border-radius: 30px;
   width: 350px;
   background-color: #0009;
-  padding: 6px;
+  padding: 4px;
   margin: 0 auto;
   border: 0;
 }
@@ -68,12 +74,13 @@ body {
   border-radius: 30px;
   background-color: #10ff8d !important;
   color: #121212;
+  border: none;
 }
 .nav-link,
 .nav-link:hover,
 .nav-link:focus {
-  outline: none;
-  border: none;
+  outline: none !important;
+  border: none !important;
   color: #fff;
   font-weight: 500;
 }
